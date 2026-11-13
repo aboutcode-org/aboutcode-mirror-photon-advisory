@@ -3,7 +3,7 @@
     "@context": "https://openvex.dev/ns/v0.2.0",
     "@id": "https://packages.broadcom.com/photon/photon_cve_metadata/cve/2026/BDSA-2026-39587",
     "author": "VMware Photon OS",
-    "timestamp": "2026-11-10T05:09:39.876785",
+    "timestamp": "2026-11-12T05:09:29.581976",
     "version": 1
   },
   "statements": [
@@ -13,6 +13,36 @@
         "name": "BDSA-2026-39587"
       },
       "products": [
+        {
+          "@id": "pkg:rpm/photon/openssl?arch=x86_64&photon=ph4"
+        },
+        {
+          "@id": "pkg:rpm/photon/openssl?arch=aarch64&photon=ph4"
+        },
+        {
+          "@id": "pkg:rpm/photon/openssl-devel?arch=x86_64&photon=ph4"
+        },
+        {
+          "@id": "pkg:rpm/photon/openssl-devel?arch=aarch64&photon=ph4"
+        },
+        {
+          "@id": "pkg:rpm/photon/openssl-perl?arch=x86_64&photon=ph4"
+        },
+        {
+          "@id": "pkg:rpm/photon/openssl-perl?arch=aarch64&photon=ph4"
+        },
+        {
+          "@id": "pkg:rpm/photon/openssl-c_rehash?arch=x86_64&photon=ph4"
+        },
+        {
+          "@id": "pkg:rpm/photon/openssl-c_rehash?arch=aarch64&photon=ph4"
+        },
+        {
+          "@id": "pkg:rpm/photon/openssl-docs?arch=x86_64&photon=ph4"
+        },
+        {
+          "@id": "pkg:rpm/photon/openssl-docs?arch=aarch64&photon=ph4"
+        },
         {
           "@id": "pkg:rpm/photon/openssl?arch=x86_64&photon=ph5"
         },
