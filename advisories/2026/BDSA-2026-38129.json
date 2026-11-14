@@ -3,7 +3,7 @@
     "@context": "https://openvex.dev/ns/v0.2.0",
     "@id": "https://packages.broadcom.com/photon/photon_cve_metadata/cve/2026/BDSA-2026-38129",
     "author": "VMware Photon OS",
-    "timestamp": "2026-11-12T05:09:29.581786",
+    "timestamp": "2026-11-13T05:09:30.775736",
     "version": 1
   },
   "statements": [
@@ -18,6 +18,12 @@
         },
         {
           "@id": "pkg:rpm/photon/python3-PyJWT?arch=aarch64&photon=ph4"
+        },
+        {
+          "@id": "pkg:rpm/photon/python3-PyJWT?arch=x86_64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/python3-PyJWT?arch=aarch64&photon=ph5"
         }
       ],
       "status": "under_investigation"
