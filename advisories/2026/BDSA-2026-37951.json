@@ -3,10 +3,81 @@
     "@context": "https://openvex.dev/ns/v0.2.0",
     "@id": "https://packages.broadcom.com/photon/photon_cve_metadata/cve/2026/BDSA-2026-37951",
     "author": "VMware Photon OS",
-    "timestamp": "2026-11-20T05:09:32.387557",
+    "timestamp": "2026-11-21T05:09:31.923152",
     "version": 1
   },
   "statements": [
+    {
+      "vulnerability": {
+        "@id": "https://nvd.nist.gov/vuln/detail/BDSA-2026-37951",
+        "name": "BDSA-2026-37951"
+      },
+      "products": [
+        {
+          "@id": "pkg:rpm/photon/python3@3.14.10-1.ph5?arch=x86_64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/python3@3.14.10-1.ph5?arch=aarch64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/python3-libs@3.14.10-1.ph5?arch=x86_64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/python3-libs@3.14.10-1.ph5?arch=aarch64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/python3-xml@3.14.10-1.ph5?arch=x86_64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/python3-xml@3.14.10-1.ph5?arch=aarch64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/python3-curses@3.14.10-1.ph5?arch=x86_64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/python3-curses@3.14.10-1.ph5?arch=aarch64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/python3-devel@3.14.10-1.ph5?arch=x86_64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/python3-devel@3.14.10-1.ph5?arch=aarch64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/python3-tools@3.14.10-1.ph5?arch=x86_64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/python3-tools@3.14.10-1.ph5?arch=aarch64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/python3-test@3.14.10-1.ph5?arch=x86_64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/python3-test@3.14.10-1.ph5?arch=aarch64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/python3-macros@3.14.10-1.ph5?arch=x86_64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/python3-macros@3.14.10-1.ph5?arch=aarch64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/python3-pip@26.2.2-1.ph5?arch=x86_64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/python3-pip@26.2.2-1.ph5?arch=aarch64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/python3-pip-wheel@26.2.2-1.ph5?arch=x86_64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/python3-pip-wheel@26.2.2-1.ph5?arch=aarch64&photon=ph5"
+        }
+      ],
+      "status": "not_affected",
+      "timestamp": "2026-11-12",
+      "status_notes": "Fixed"
+    },
     {
       "vulnerability": {
         "@id": "https://nvd.nist.gov/vuln/detail/BDSA-2026-37951",
@@ -200,8 +271,7 @@
           "@id": "pkg:rpm/photon/python3-pip-wheel?arch=aarch64&photon=ph5"
         }
       ],
-      "status": "under_investigation",
-      "status_notes": "Fixed"
+      "status": "under_investigation"
     }
   ]
 }

@@ -3,10 +3,44 @@
     "@context": "https://openvex.dev/ns/v0.2.0",
     "@id": "https://packages.broadcom.com/photon/photon_cve_metadata/cve/2026/BDSA-2026-36001",
     "author": "VMware Photon OS",
-    "timestamp": "2026-11-20T05:09:32.366834",
+    "timestamp": "2026-11-21T05:09:31.903597",
     "version": 1
   },
   "statements": [
+    {
+      "vulnerability": {
+        "@id": "https://nvd.nist.gov/vuln/detail/BDSA-2026-36001",
+        "name": "BDSA-2026-36001"
+      },
+      "products": [
+        {
+          "@id": "pkg:rpm/photon/go@1.26.11-1.ph5?arch=x86_64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/go@1.26.11-1.ph5?arch=aarch64&photon=ph5"
+        }
+      ],
+      "status": "fixed",
+      "timestamp": "2026-11-12",
+      "status_notes": "Fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://nvd.nist.gov/vuln/detail/BDSA-2026-36001",
+        "name": "BDSA-2026-36001"
+      },
+      "products": [
+        {
+          "@id": "pkg:rpm/photon/go@1.26.11-1.ph5?arch=x86_64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/go@1.26.11-1.ph5?arch=aarch64&photon=ph5"
+        }
+      ],
+      "status": "not_affected",
+      "timestamp": "2026-11-12",
+      "status_notes": "Fixed"
+    },
     {
       "vulnerability": {
         "@id": "https://nvd.nist.gov/vuln/detail/BDSA-2026-36001",
@@ -26,8 +60,7 @@
           "@id": "pkg:rpm/photon/go?arch=aarch64&photon=ph5"
         }
       ],
-      "status": "under_investigation",
-      "status_notes": "Fixed"
+      "status": "under_investigation"
     }
   ]
 }
