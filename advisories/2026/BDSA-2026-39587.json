@@ -3,7 +3,7 @@
     "@context": "https://openvex.dev/ns/v0.2.0",
     "@id": "https://packages.broadcom.com/photon/photon_cve_metadata/cve/2026/BDSA-2026-39587",
     "author": "VMware Photon OS",
-    "timestamp": "2026-11-24T05:09:27.570651",
+    "timestamp": "2026-11-26T05:09:10.914300",
     "version": 1
   },
   "statements": [
@@ -13,36 +13,6 @@
         "name": "BDSA-2026-39587"
       },
       "products": [
-        {
-          "@id": "pkg:rpm/photon/openssl?arch=x86_64&photon=ph4"
-        },
-        {
-          "@id": "pkg:rpm/photon/openssl?arch=aarch64&photon=ph4"
-        },
-        {
-          "@id": "pkg:rpm/photon/openssl-devel?arch=x86_64&photon=ph4"
-        },
-        {
-          "@id": "pkg:rpm/photon/openssl-devel?arch=aarch64&photon=ph4"
-        },
-        {
-          "@id": "pkg:rpm/photon/openssl-perl?arch=x86_64&photon=ph4"
-        },
-        {
-          "@id": "pkg:rpm/photon/openssl-perl?arch=aarch64&photon=ph4"
-        },
-        {
-          "@id": "pkg:rpm/photon/openssl-c_rehash?arch=x86_64&photon=ph4"
-        },
-        {
-          "@id": "pkg:rpm/photon/openssl-c_rehash?arch=aarch64&photon=ph4"
-        },
-        {
-          "@id": "pkg:rpm/photon/openssl-docs?arch=x86_64&photon=ph4"
-        },
-        {
-          "@id": "pkg:rpm/photon/openssl-docs?arch=aarch64&photon=ph4"
-        },
         {
           "@id": "pkg:rpm/photon/openssl?arch=x86_64&photon=ph5"
         },
@@ -78,6 +48,46 @@
         },
         {
           "@id": "pkg:rpm/photon/openssl-docs?arch=aarch64&photon=ph5"
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "The vulnerability is present in QUIC CRYPTO Stream processing. The Advisory clearly states that openssl-fips-provider-3.5.4 is not affected (\"The FIPS module is not affected as the QUIC implementatio"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://nvd.nist.gov/vuln/detail/BDSA-2026-39587",
+        "name": "BDSA-2026-39587"
+      },
+      "products": [
+        {
+          "@id": "pkg:rpm/photon/openssl?arch=x86_64&photon=ph4"
+        },
+        {
+          "@id": "pkg:rpm/photon/openssl?arch=aarch64&photon=ph4"
+        },
+        {
+          "@id": "pkg:rpm/photon/openssl-devel?arch=x86_64&photon=ph4"
+        },
+        {
+          "@id": "pkg:rpm/photon/openssl-devel?arch=aarch64&photon=ph4"
+        },
+        {
+          "@id": "pkg:rpm/photon/openssl-perl?arch=x86_64&photon=ph4"
+        },
+        {
+          "@id": "pkg:rpm/photon/openssl-perl?arch=aarch64&photon=ph4"
+        },
+        {
+          "@id": "pkg:rpm/photon/openssl-c_rehash?arch=x86_64&photon=ph4"
+        },
+        {
+          "@id": "pkg:rpm/photon/openssl-c_rehash?arch=aarch64&photon=ph4"
+        },
+        {
+          "@id": "pkg:rpm/photon/openssl-docs?arch=x86_64&photon=ph4"
+        },
+        {
+          "@id": "pkg:rpm/photon/openssl-docs?arch=aarch64&photon=ph4"
         }
       ],
       "status": "under_investigation"
